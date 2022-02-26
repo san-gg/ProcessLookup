@@ -2,11 +2,15 @@
 ProcessLookup lists CPU utilization (in percentage) for all the processes.
 Following is the output format:-
 
-> CPU : xx%
-> \---------
-> Pid    : <pid>
-> Path  : <Exe path>
-> Cmd  : <Command line of Exe>
+> CPU : xx%<br>
+> \---------<br>
+> Pid  : \<pid\><br>
+> Path : \<Exe path\><br>
+> Cmd  : \<Command line of Exe\><br>
+>
+> Pid  : \<pid\><br>
+> Path : \<Exe path\><br>
+> Cmd  : \<Command line of Exe\><br>
 
 ...
 ```
