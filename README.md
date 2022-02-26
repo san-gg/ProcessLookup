@@ -1,5 +1,6 @@
 ## ProcessLookup
-ProcessLookup lists CPU utilization (in percentage) for all the processes.
+ProcessLookup lists CPU utilization (percentage) of all the processes.<br>
+It is a console program.<br>
 Following is the output format:-
 
 > CPU : xx%<br>
@@ -28,5 +29,8 @@ eg:-
 ProcessLookup.exe /t 10 /tg 2 /noe 10
 /t 10  -  Program will run for 10 mins.
 /tg 2  -  After 2 mins CPU usage % will be calculated for all the processes.
-/noe   -  Display 10 entries of CPU usage % .
+/noe   -  Displays top 10 CPU usage %.
 ```
+## Installation
+If you want to run exe from anywhere in the command prompt, just `Double-Click Installation.bat` - This will add extracted directory path in users environment variable. Otherwise you can simply run in command prompt.<br>
+Currently the exe supports Windows 10, Windows server 2019 and Windows server 2022.
